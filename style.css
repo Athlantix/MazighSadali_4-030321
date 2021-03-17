@@ -28,7 +28,6 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -37,6 +36,7 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+    
 }
 
 .bloc .container {
@@ -291,7 +291,10 @@ a:hover {
     margin-bottom: 0;
     z-index: 1;
 }
-
+.navbar a{
+    text-decoration: none;
+    margin: 10px;
+}
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
@@ -326,6 +329,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    list-style: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -651,12 +655,9 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
-.container {
-    max-width: 1000px;
-}
 
 .hero-bloc-text {
     font-size: 38px;
@@ -713,7 +714,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333;
 }
 
 .med-width-whitespace {
@@ -823,6 +824,47 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+.bloc-2-titre{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+.bloc-4-titre{
+    text-align: center;
+    width: 465px;
+    margin: auto;
+}
+
+.keywords{
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.avis-user{
+    margin: auto;
+    width: 420px;
+    font-style: italic;
+    color:grey;
+    text-transform:none;
+    line-height: 1.5;
+}
+.user{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.text-center-6{
+    text-align: center;
+    margin:auto;
+}
+
+.p-block-6{
+    font-size:17px;
+    color: white;
+    padding: 10px;
 }
 
 @media (max-width: 1024px) {
@@ -1027,6 +1069,7 @@ h4 {
         height: 320px;
     }
 }
+
 
 @media (max-width: 400px) {
     .bloc {
