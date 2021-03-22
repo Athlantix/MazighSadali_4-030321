@@ -1,0 +1,3 @@
+User-agent: * 
+Disallow:
+Sitemap: https://athlantix.github.io/MazighSadali_4-030321/index.html
